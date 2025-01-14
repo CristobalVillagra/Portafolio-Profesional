@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="style.css">
+        <title>Portafolio Profesional</title >
+    </head>
+
+    <body>
+        
+     <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+          <header>
+            <div class="contenido-header">
+                <div class="redes">
+                    <a href="https://www.tiktok.com/@sir_r0b0t?_t=ZM-8t2WdREq21W&_r=1">
+                      <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/cristobal-patricio-villagra-gutierrez-374030288">
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/CristobalVillagra">
+                      <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+      
+              <!-- Navegación principal -->
+              <nav id="nav">
+                <ul id="links">
+                  <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">MENU</a></li>
+                  <li><a href="#sobremi" onclick="seleccionar(this)">Sobre mi</a></li>
+                  <li><a href="#servicios" onclick="seleccionar(this)">Servicios</a></li>
+                  <li><a href="#portfolio" onclick="seleccionar(this)">Proyectos</a></li>
+                  <li><a href="#contacto" onclick="seleccionar(this)">Contacto</a></li>
+                </ul>
+              </nav>
+      
+              <!-- Icono del menú responsive -->
+              <div id="icono-nav" onclick="responsiveMenu()">
+                <i class="fa-solid fa-bars"></i>
+              </div>
+            </div>
+          </header>
+      
+          <!-- Sección de presentación -->
+          <div class="presentacion">
+            <code class="bienvenida">print("Bienvenido a mi portafolio profesional")</code>
+            <h2><span></span>Soy Cristobal Villagra</h2>
+            
+            <details>
+              <summary class="descripcion">¿A qué me dedico?</summary>
+              <div>
+                Me dedico a la programación y gestión de proyectos informáticos. Tengo mi especialización en ciencia de datos, Business Intelligence y el Desarrollo Full Stack. 
+                Mis capacidades técnicas y analíticas se complementan con una actitud proactiva, comprometida y de cooperación en cada proyecto. Me gusta aceptar desafíos y explotar mi creatividad.
+              </div>
+            </details>
+            <a href="#portfolio">Ir</a>
+        </div>
+      </section>
+      
+     <!-- SECCION INTERESES -->
+      <section id="servicios">
+        <h3 class="titulo-seccion">Mis intereses</h3>
+        <div class="fila">
+            <div class="fila">
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-code"></i></span>
+                    <h4>Full stack developer</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Desarrolle una aplicacion CRUD como inventario para una empresa de turismo y hoteleria con Angular, al igual que aplicaciones con integracion de servicios API REST</p>
+                </div>
+
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-people-roof"></i></span>
+                    <h4>Gestor de proyectos</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Tengo experiencia en gestion de proyetos del instituto profesional, al igual que realice un curso de Liderazgo en la fundacion "jovenes lideres" </p>
+                </div>
+                <div class="servicio">
+                    <span class="icono"><i class="fa-solid fa-file-invoice"></i></span>
+                    <h4>Ciencia de datos</h4>
+                    <hr>
+                    <ul class="servicios-tag">
+                        <li>Web</li>
+                        <li>Graphic</li>
+                        <li>SEO</li>
+                    </ul>
+                    <p>Manejo análisis predictivo y toma de decisiones basada set de datos, através de modelos estadísticos, aprendizaje automático y visualización de datos utilizando librerias de Python aplicado a las técnicas para resolver problemas y generar una respuesta al respecto.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+     <!-- SECCION SERVICIOS -->
+     <section id="servicios">
+        <h3 class="titulo-seccion">Mis Servicios</h3>
+        <div class="fila">
+            <div class="servicio">
+                <span class="icono"> <i class="fa-brands fa-html5"></i></span>
+                <h4>HTML</h4>
+                <hr>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-css3-alt"></i></span>
+                <h4>CSS</h4>
+                <hr>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-js"></i></span>
+                <h4>Javascript</h4>
+                <hr>
+                
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-brands fa-python"></i></span>
+                <h4>Python</h4>
+                <hr>
+            </div>
+            <div class="servicio">
+                <span class="icono"><i class="fa-solid fa-database"></i></span>
+                <h4>Databases</h4>
+                <hr>
+            </div>
+            
+        </div>
+     </section>
+
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Mis Proyectos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/VeguitaFront.jpg" alt="">
+                <div class="info">
+                    <h4>Verduleria con Django</h4>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/Register.jpg" alt="">
+                <div class="info">
+                    <h4>Registrador de usuarios</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/MCL.png" alt="">
+                <div class="info">
+                    <h4>Entrenamiento a la maquina con Python</h4>
+                    
+                </div>
+            </div>
+            <div class="proyecto">
+        </div>
+    </section>
+
+    
+
+    <!-- SECCION FOOTER -->
+    <footer class="contacto">
+        <div class="footer-contenido">
+            <h2>Contactame</h2>
+        </div>
+        <ul class="footer-redes">
+            <li>
+                <a href="https://www.tiktok.com/@sir_r0b0t?_t=ZM-8t2WdREq21W&_r=1">
+                    <i class="fa-brands fa-tiktok"></i>
+                </a>
+            </li>
+
+            <li>
+              <a href="https://www.linkedin.com/in/cristobal-patricio-villagra-gutierrez-374030288" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/CristobalVillagra" target="_blank">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+        </ul>
+        <div class="contacto">
+        <p class="contenedor-form">© todos los derechos resevados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    </body>
+</html>
